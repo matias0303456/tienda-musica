@@ -1,0 +1,9 @@
+{
+    "name": "matias/tienda-musica",
+    "description": "tienda de musica",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "mercadopago/dx-php": "1.10.0"
+    }
+}
