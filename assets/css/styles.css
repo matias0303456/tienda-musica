@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+a{
+    color: black;
+    transition: 300ms;
+}
+
+a:hover{
+    background-color: rgb(183, 74, 233);
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+body{
+    background-color: rgb(183, 74, 233);
+}
+
+header{
+    background-color: white;
+    margin: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+header h1{
+    font-size: 3rem;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+}
+
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header nav ul li{
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 1.2rem;
+}
+
+main{
+    background-color: white;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+main h2, main h3{
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+}
+
+main #main-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#main-container .product-card{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 3px 3px 5px black;
+    text-align: center;
+}
+
+#main-container .product-card .product-name{
+    font-size: 1.7rem;
+    display: block;
+    margin-bottom: 10px;
+}
+
+#main-container .product-card img{
+    width: 40%;
+}
+
+#main-container .product-card .product-price,
+#main-container .product-card .product-stock{
+    display: block;
+    margin: 0px auto;
+    margin-top: 20px;
+    background-color: rgb(183, 74, 233);
+    width: 30%;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
